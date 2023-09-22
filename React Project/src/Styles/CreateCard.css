@@ -1,0 +1,45 @@
+/* Form Inputs */
+.SignUp .form .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.SignUp .form input[type="text"],
+[type="num"],
+[type="email"],
+[type="url"],
+[type="tel"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: calc(50% - 5px);
+}
+.submitCard {
+  background: linear-gradient(#e0edff, #adcdf6) padding-box;
+  width: 250px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 600;
+  padding: 6px;
+  margin: 20px;
+  margin-left: 35%;
+}
+.submitCard:hover {
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .SignUp .form input[type="text"],
+  [type="num"],
+  [type="email"],
+  [type="url"],
+  [type="tel"] {
+    width: 100%;
+  }
+}

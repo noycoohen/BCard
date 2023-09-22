@@ -1,0 +1,13 @@
+/* About.css */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.about-image {
+  margin-bottom: 30%;
+  max-width: 80%;
+  height: auto;
+}

@@ -1,0 +1,94 @@
+:root {
+  --background: #ffffff;
+  --text-primary: #000;
+  --text-secondary: #635959;
+  --accent: #1d0fda;
+  --border: #333;
+  --form-bg: #fff;
+}
+
+[data-theme="dark"] {
+  --background: #0f0e0e;
+  --text-primary: #fff;
+  --text-secondary: #928d8d;
+  --accent: #1d0fda;
+  --border: #333;
+  --form-bg: #191919;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-secondary);
+}
+body {
+  background-color: var(--background);
+}
+
+.SignUp {
+  background-color: var(--form-bg);
+  color: var(--text-primary);
+  transition: all 0.5s;
+}
+.register {
+  background-color: var(--form-bg);
+  color: var(--text-primary);
+  transition: all 0.5s;
+}
+.homePage {
+  background-color: var(--form-bg);
+  color: var(--text-primary);
+  transition: all 0.5s;
+}
+
+/* CARD */
+.card {
+  color: var(--text-primary);
+}
+.cardBody,
+.cardFooter {
+  background-color: var(--background);
+}
+.phoneIcon,
+.heartIcon {
+  color: var(--text-primary);
+}
+
+/* NAV */
+#navbarScroll {
+  color: var(--text-primary);
+}
+/* FOOTER */
+.footer {
+  background-color: var(--background);
+}
+
+h1 {
+  color: var(--text-primary);
+}
+input {
+  background: var(--background);
+  color: var(--text-primary);
+  -webkit-text-fill-color: var(--text-primary);
+}
+
+.inputlog ~ label {
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-primary);
+}
+.nav a {
+  color: var(--text-primary);
+}
+.nav a:hover {
+  color: var(--text-secondary);
+}
+.nav {
+  color: var(--text-primary);
+}
